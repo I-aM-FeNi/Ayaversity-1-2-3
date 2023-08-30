@@ -1,17 +1,16 @@
-const deployContract = artifacts.require('deployContract');
+const { ethers, upgrades } = require("hardhat");
 
-module.exports = async function(deployer, network, accounts) {
-  await deployer.deploy(deployContract);
+async function main() {
+  const HelloWorld = await ethers.getContractFactory("HelloWorld");
+  const helloWorld = await HelloWorld.deploy();
+  await helloWorld.deployed();
 
-  // Retrieve deployed contract's address
-  const deployedContract = await deployContract.deployed();
+  console.log("HelloWorld deployed to:", helloWorld.address);
+}
 
-  console.log('Contract deployed:', deployedContract.address);
-
-  // Log the Etherscan link
-  if (network === 'mainnet') {
-    console.log('Etherscan Link:', `https://etherscan.io/address/${deployedContract.address}`);
-  } else {
-    console.log('Etherscan Link is available for mainnet deployment only.');
-  }
-};
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
