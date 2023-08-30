@@ -1,0 +1,146 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\cynth\\OneDrive\\Documents\\Ayaversity-Tasks\\Ayaversity-Tasks\\contracts\\Bank_Mechanism.sol": {
+      "lastModificationDate": 1693431213884,
+      "contentHash": "c4c9965057ff5a8483a9256cd6496277",
+      "sourceName": "contracts/Bank_Mechanism.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BankMechanism"
+      ]
+    },
+    "C:\\Users\\cynth\\OneDrive\\Documents\\Ayaversity-Tasks\\Ayaversity-Tasks\\contracts\\Crowd_Fund_System.sol": {
+      "lastModificationDate": 1693431213884,
+      "contentHash": "54ebc87410507720b54c10040f7d8a6e",
+      "sourceName": "contracts/Crowd_Fund_System.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "CrowdFund",
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\cynth\\OneDrive\\Documents\\Ayaversity-Tasks\\Ayaversity-Tasks\\contracts\\Hello_World.sol": {
+      "lastModificationDate": 1693431159162,
+      "contentHash": "8f405f493757bc83f27a1604e1aa2bd9",
+      "sourceName": "contracts/Hello_World.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    },
+    "C:\\Users\\cynth\\OneDrive\\Documents\\Ayaversity-Tasks\\Ayaversity-Tasks\\contracts\\Poll_Contract.sol": {
+      "lastModificationDate": 1693431213884,
+      "contentHash": "e113876eae04cadc1b0dc83be2e85d23",
+      "sourceName": "contracts/Poll_Contract.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PollContract"
+      ]
+    }
+  }
+}
